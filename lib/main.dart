@@ -7,6 +7,7 @@ import 'auth/login.dart';
 import 'homepage.dart';
 import 'aduan.dart';
 import 'borang/kewps8.dart';
+import 'kewpa11/index.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         initialRoute: "/",
         getPages: [
           // GetPage(name: "/", page: ()=>LandingPage()),
-          GetPage(name: "/", page: () => Kewps8Page())
+          GetPage(name: "/", page: () => Kewpa11Page())
         ]);
   }
 }
